@@ -65,14 +65,14 @@
                 <b-form-checkbox-group v-model="form.checked" id="checkboxes-8">
                   <b-form-checkbox value="me">
                     I accept QPARAMS terms and
-                    <br />conditions
+                    conditions
                   </b-form-checkbox>
                 </b-form-checkbox-group>
               </b-form-group>
-              <div id="submit-button">
+              
 
               <b-button type="submit" variant="primary">Submit</b-button>
-              </div>
+              
             </b-form>
           </div>
        
@@ -179,6 +179,7 @@ export default {
 }
 .contact-heading h2 {
   text-align: center;
+  font-style: bold;
   color: white;
   padding-top: 10rem;
   font-size: 2.5rem;
@@ -195,7 +196,7 @@ export default {
   text-align: left;
   margin-left: 20.5rem;
   margin-top: 5rem;
-
+font-family: 'Fjalla One', sans-serif;
   letter-spacing: 0px;
   color: #7a7a7a;
   opacity: 1;
@@ -247,8 +248,9 @@ opacity: 0.9;
   text-align: center;
   margin-left: 20.5rem;
   padding-bottom: 3rem;
-
+font-size: 2rem;
   letter-spacing: 0px;
+  font-family: 'Fjalla One', sans-serif;
   color: #7a7a7a;
   opacity: 1;
 }
@@ -286,24 +288,31 @@ opacity: 0.9;
   display: inline-block;
   margin: 1rem;
 }
+.btn-primary{
+  width: 13rem;
+  margin: 1rem 0 0 7rem;
+  border: none;
+  color: #fff;
+  background: #364E61 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+}
 
 @media screen and (max-width: 800px) {
  .contact-heading h2 {
   padding-top: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .contact-heading p {
-
-  font-size: 1.2rem;
-  padding-top: 1rem;
-  padding-bottom: 4rem;
-
+  font-size: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
 }
 .contact-query h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: left;
   margin-left: 2rem;
-  margin-top: 5rem;
+  padding-right: 1rem;
+  margin-top: 3rem;
 
 }
 .contact-box {
@@ -369,6 +378,18 @@ width:15rem;
   height: 25rem;
   margin:16rem 1rem 1rem 1rem;
 }
+.blue h2 {
+  padding: 2rem 1rem 1rem 1rem;
+  font-size: 1.3rem;
+}
+.blue p {
+  padding: 0.1rem .5rem .5rem .5rem;
+  font-size: 1rem;
+}
+.btn-primary{
+  width: 13rem;
+  margin: 1rem 0 0 2.5rem;
+}
 .google-map {
   margin-top: 2rem;
  
@@ -376,12 +397,13 @@ width:15rem;
 .google-map h2 {
   text-align: center;
   margin-left: 2rem;
-  padding-bottom: 3rem;
+  padding:2rem 0 2rem 0;
+  font-size: 1.5rem;
 
 }
 .google-map iframe {
   margin: 1rem 1rem 0 1rem;
-  width:20.5rem;
+  width:100%;
   height:12rem;
 }
 }

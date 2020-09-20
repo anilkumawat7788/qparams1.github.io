@@ -6,7 +6,7 @@
         <h2>QPARAMS Growth accelerated Trainings</h2>
         <p>
           Our Qparam courses aim to accelerate your career by making you proficient in this domain. We aim to make you proficient in the technology
-          <br />field by helping you learn both basic and advanced concepts of new Technologies. 
+          field by helping you learn both basic and advanced concepts of new Technologies. 
         </p>
       </div>
     </div>
@@ -252,12 +252,9 @@ export default {
 }
 .courses-heading p {
   text-align: left;
-  padding-left: 15rem;
-  padding-top: 1.5rem;
-padding-bottom:5rem;
+  padding:1.5rem 9rem 8rem 15rem;
   color: white;
-
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 .heading-second h2 {
   position: relative;
@@ -392,9 +389,7 @@ padding-bottom:5rem;
 }
 .courses-heading p {
   text-align: left;
-  padding-left: 2rem;
-  padding-top: .5rem;
-padding-bottom:.5rem;
+  padding: 1rem 1rem 1rem 2rem;
   font-size: 1rem;
 }
 .heading-second h2 {

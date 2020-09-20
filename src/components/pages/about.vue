@@ -6,9 +6,9 @@
             <h2>WHO WE ARE</h2>
             <p>
               “Q Params” is the Corporate and Private Trainings, offering quality training and certifications across India.
-              <br />“Q Params Technologies” stands an Institute that never compromises in its Quality Training.
-              <br />A group of highly skilled and experienced engineers worked in reputed companies and having
-              <br />knowledge in all aspect of VLSI design will be guiding aspirants.
+             “Q Params Technologies” stands an Institute that never compromises in its Quality Training.
+             A group of highly skilled and experienced engineers worked in reputed companies and having
+              knowledge in all aspect of VLSI design will be guiding aspirants.
             </p>        
       </div>
 <div class="index-box">
@@ -110,29 +110,31 @@ export default {
   background: #fcac66 0% 0% no-repeat padding-box;
   
  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  align-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
   opacity: 1;
+}
+.about-heading{
+  width: 61rem;
 }
 .about-heading h2 {
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding: 5rem 0 0 0;
   font-size: 2.4em;
 }
 .about-heading p {
-  text-align: center;
-  padding-top: 40px;
+  text-align:center;
   color: white;
-  padding-bottom:20rem;
+  padding: 3rem 0 18rem 0;
   font-size: 1.3em;
 }
 .index-box {
   position: absolute;
   width: 80rem;
   height: 10rem;
-  top: 20rem;
+  top: 23rem;
   left: 17rem;
   z-index: 1;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -160,7 +162,7 @@ export default {
   position: absolute;
   width: 80rem;
   height: 10rem;
-  top: 34rem;
+  top: 35rem;
   left: 17rem;
   z-index: 1;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -277,15 +279,16 @@ export default {
 }
 
 @media screen and (max-width: 800px) {
+ .about-heading{
+  width:100%;
+}
  .about-heading h2 {
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 1.5rem;
 }
 .about-heading p {
-  
-  padding-top: 1rem;
   color: white;
-  padding-bottom:2rem;
+  padding: 1rem ;
   font-size: .9rem;
 }
 .index-box {
@@ -307,7 +310,7 @@ export default {
 }
 .index-box p {
   font-size: 1rem;
-  padding-top: .1rem;
+  padding-top: .5rem;
 }
 .index-box1 {
   position: absolute;
@@ -328,7 +331,7 @@ export default {
 }
 .index-box1 p {
   font-size: 1rem;
-  padding-top: .1rem;
+  padding-top: .5rem;
 }
 .about-section1 {
   margin-top: 1rem;
@@ -337,6 +340,7 @@ export default {
 }
 .heading-second h2 {
   padding-top: 37rem;
+  font-size: 1.5rem;
 }
 .about-box {
   width: 55rem;

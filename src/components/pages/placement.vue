@@ -526,14 +526,14 @@ export default {
 
 @media screen and (max-width: 800px) {
   .placement-heading h2 {
-  padding-top: 2rem;
-  font-size: 2rem;
+  padding-top: 3rem;
+  font-size: 1.5rem;
 }
 .placement-heading p {
 
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 
 }
 .placement-offers {
@@ -573,10 +573,9 @@ export default {
   border-radius: 4px;
   margin-top: 17.5rem;
   left:11rem;
-}.placement-container h1 {
- 
-  font-size: 2rem;
-  
+}
+.placement-container h1 {
+  font-size: 1.3rem;
   padding-top: 3rem;
 }
 
@@ -618,8 +617,8 @@ display:none;
 }
 .client-heading h1 {
   text-align: center;
-  padding-top: 1rem;
-  font-size: 2rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
   ;
 }
 .box-5 {
