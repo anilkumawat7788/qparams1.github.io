@@ -64,7 +64,7 @@ opacity: 1;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #364E61;
-  margin: 0 2rem 0 1rem;
+  margin: 0 2rem 0rem 1rem;
 font-size: .9rem;
   
 }
