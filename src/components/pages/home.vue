@@ -45,7 +45,8 @@
           Qparams is the only training institute
           where all the course contents are
          mentored by the working professionals
-          from semiconductor industry
+          from semiconductor industry.
+
         </P>
       </div>
       <div class="box-2">
