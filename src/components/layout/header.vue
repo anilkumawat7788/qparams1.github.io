@@ -12,7 +12,7 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav id="navbarSupportedContent" class="nav-item ml-auto">
-            <b-nav-item @click="goTo('')"><span :class="active('/')">HOMe</span></b-nav-item>
+            <b-nav-item @click="goTo('')"><span :class="active('/')">HOME</span></b-nav-item>
             <hr class="line1" />
             <b-nav-item @click="goTo('about')"><span :class="active('/about')">ABOUT</span></b-nav-item>
             <hr class="line1" />
