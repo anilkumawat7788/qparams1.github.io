@@ -19,7 +19,7 @@
           <b-col col="8" sm="9">
             <p>
               Our Vison is to create high Quality tool of hardware engineers by
-              <br />giving practical industry level training to students.
+              <br />giving practical industry level training to students
             </p>
           </b-col>
         </b-row>
